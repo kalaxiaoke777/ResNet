@@ -1,0 +1,5 @@
+# torch / torchvision：使用已有 conda 环境（推荐 tensorflow）
+# 缺 torchvision 时按 torch 版本装匹配包，务必加 --no-deps：
+#   pip install "torchvision==0.29.1+cpu" --index-url https://download.pytorch.org/whl/cpu --no-deps
+gradio>=4.0.0
+huggingface_hub>=0.20.0
